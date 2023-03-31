@@ -15,7 +15,6 @@ const Shop = () => {
 
 
     const handleAllCart = (product) =>{
-        // console.log(product)
          const newCart = [...cart, product]
          setcart(newCart)
     }
@@ -33,7 +32,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-cont">
-                <h5> Order summary</h5>
+                <h3> Order summary</h3>
                 <p>Selected items: {cart.length}</p>
             </div>
         </div>
