@@ -1,12 +1,12 @@
-.cart-cont {
-    position: sticky;
-  top: 0;
+.cart { 
   background-color: #ffe1b3;
   color: #1C2B35;
   text-align: center;
-  
+  position: sticky;
+  top: 0;
+  padding: 10px 0;
 }
-.order-info {
+.cart p {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
@@ -15,7 +15,7 @@
   letter-spacing: 0.005em;
   color: #2a414f;
 }
-.order-info h6{
+.cart h6{
     font-weight: 400;
 font-size: 21px;
 }
